@@ -59,7 +59,7 @@ function App() {
       setImgUrl(getImgUrl(page.variations, pageNb, target));
 
       // Get next pages
-      getNextTargets(page.choices);
+      if (page.choices) getNextTargets(page.choices);
     }
   };
 
@@ -118,22 +118,26 @@ function App() {
   return (
     <div className="App" style={styles.app}>
       {/* Current page */}
-      <Page
-        imgUrl={imgUrl}
-        story={story}
-        choices={choices}
-        emitChoice={handleChoice}
-      />
-      {/* Next pages */}
-      {nextPages.map((page) => (
+      <div className="current-page">
         <Page
-          key={page.text}
-          imgUrl={page.imgUrl}
-          story={page.text}
-          choices={page.choices}
+          imgUrl={imgUrl}
+          story={story}
+          choices={choices}
           emitChoice={handleChoice}
         />
-      ))}
+      </div>
+      {/* Next pages */}
+      <div className="next-pages">
+        {nextPages.map((page) => (
+          <Page
+            key={page.text}
+            imgUrl={page.imgUrl}
+            story={page.text}
+            choices={page.choices}
+            emitChoice={handleChoice}
+          />
+        ))}
+      </div>
     </div>
   );
 }
