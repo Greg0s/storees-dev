@@ -4,6 +4,7 @@ import "./App.css";
 import Choices from "./Choices";
 import Story from "./Story";
 import Illu from "./Illu";
+import Page from "./Page";
 
 function App() {
   const styles = {
@@ -23,11 +24,12 @@ function App() {
   const [storyData, setStoryData] = useState("");
   const [boat, setBoat] = useState("");
   const [isBoatSet, setIsBoatSet] = useState(false);
-  const [nextImgUrl, setNextImgUrl] = useState([]);
+  const [nextTargets, setNextTargets] = useState([]);
+  const [nextPages, setNextPages] = useState([]);
 
+  // First load
   useEffect(() => {
     const fetchStory = async () => {
-      console.log("1st time !!!!!!!!!!!!!!");
       try {
         const storyDataTemp = await fetchData("pages"); // Utilisation d'await pour attendre la résolution de la promesse
         setStoryData(storyDataTemp);
@@ -41,49 +43,26 @@ function App() {
     fetchStory();
   }, [pageNb, target]);
 
+  // On choice click
   useEffect(() => {
     updateStoryData();
   }, [target, pageNb, storyData]);
 
   const updateStoryData = () => {
-    console.log("la", pageNb);
     if (storyData) {
       const page = storyData[pageNb][target];
+
+      // Set current page
       setStory(page.text);
       setChoices(page.choices);
-      setIllu(page.variations);
-      getNextImgUrl(page.choices);
-    }
-  };
+      setImgUrl(getImgUrl(page.variations, pageNb, target));
 
-  const setIllu = (variations) => {
-    let imgUrl;
-
-    if (!variations) {
-      imgUrl = "/pages/" + pageNb + "/" + target + ".jpg";
-    } else {
-      imgUrl = "/pages/" + pageNb + "/" + target + "-" + boat + ".jpg";
-    }
-
-    console.log(imgUrl);
-
-    setImgUrl(imgUrl);
-  };
-
-  const getNextImgUrl = (choices) => {
-    if (choices) {
-      let targets = [];
-      choices.forEach((choice) => {
-        targets.push(choice.target);
-      });
-      setNextImgUrl(targets);
-      console.log("targetsss", targets);
+      // Get next pages
+      getNextTargets(page.choices);
     }
   };
 
   const handleChoice = (choice) => {
-    console.log("choice that should become target", choice);
-
     if (!isBoatSet) {
       if (choice == "a") setBoat("flying_candy");
       else if (choice == "b") setBoat("black_dragon");
@@ -93,18 +72,67 @@ function App() {
 
     setPageNb(pageNb + 1);
     pageNb++;
-    console.log(pageNb);
 
-    const choiceTemp = choice;
-    setTarget(choiceTemp);
-    console.log("new target ???", target);
+    setTarget(choice);
+  };
+
+  const getImgUrl = (variations, pageNb, target) => {
+    if (!variations) {
+      return "/pages/" + pageNb + "/" + target + ".jpg";
+    } else {
+      return "/pages/" + pageNb + "/" + target + "-" + boat + ".jpg";
+    }
+  };
+
+  const getNextTargets = (choices) => {
+    if (choices) {
+      let targets = [];
+      choices.forEach((choice) => {
+        targets.push(choice.target);
+      });
+      setNextTargets(targets);
+    }
+
+    updateNextPages();
+  };
+
+  const updateNextPages = () => {
+    let nextPagesTemp = [];
+    const nextPageNb = pageNb + 1;
+    nextTargets.forEach((nextTarget) => {
+      const onePage = {
+        text: storyData[nextPageNb][nextTarget].text,
+        choices: storyData[nextPageNb][nextTarget].choices,
+        imgUrl: getImgUrl(
+          storyData[nextPageNb][nextTarget].variations,
+          nextPageNb,
+          nextTarget
+        ),
+      };
+      nextPagesTemp.push(onePage);
+    });
+    setNextPages(nextPagesTemp);
   };
 
   return (
     <div className="App" style={styles.app}>
-      {nextImgUrl && <Illu imgUrl={imgUrl} nextImgUrl={nextImgUrl} />}
-      <Story story={story} />
-      {choices && <Choices choices={choices} emitChoice={handleChoice} />}
+      {/* Current page */}
+      <Page
+        imgUrl={imgUrl}
+        story={story}
+        choices={choices}
+        emitChoice={handleChoice}
+      />
+      {/* Next pages */}
+      {nextPages.map((page) => (
+        <Page
+          key={page.text}
+          imgUrl={page.imgUrl}
+          story={page.text}
+          choices={page.choices}
+          emitChoice={handleChoice}
+        />
+      ))}
     </div>
   );
 }

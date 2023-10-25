@@ -9,15 +9,6 @@ export default function Illu(props) {
     },
   };
 
-  // preloading,
-  const componentDidMount = () => {
-    props.nextImgUrl.forEach((url) => {
-      const img = new Image();
-      img.src = url.fileName;
-    });
-  };
-
-  componentDidMount();
   const imgUrl = props.imgUrl;
 
   return <img src={imgUrl} style={styles.illu} />;
