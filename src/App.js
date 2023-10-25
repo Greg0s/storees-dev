@@ -1,10 +1,11 @@
+// Dependencies
 import { useState, useEffect } from "react";
-import fetchData from "./fetch";
+// Utils
+import { fetchData } from "./utils";
+// Styling
 import "./App.css";
-import Choices from "./Choices";
-import Story from "./Story";
-import Illu from "./Illu";
-import Page from "./Page";
+// Components
+import { Page } from "./components";
 
 function App() {
   const styles = {

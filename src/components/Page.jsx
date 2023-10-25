@@ -1,7 +1,5 @@
 import React from "react";
-import Illu from "./Illu";
-import Story from "./Story";
-import Choices from "./Choices";
+import { Choices, Story, Illu } from "./";
 
 export default function Page(props) {
   const imgUrl = props.imgUrl;

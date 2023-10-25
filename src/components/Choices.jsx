@@ -1,5 +1,4 @@
 import React from "react";
-import { useState, useEffect } from "react";
 
 const Choices = (props) => {
   const choices = props.choices;
