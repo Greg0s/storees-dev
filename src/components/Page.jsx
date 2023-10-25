@@ -11,10 +11,10 @@ export default function Page(props) {
   }
 
   return (
-    <>
+    <div className="page">
       <Illu imgUrl={imgUrl} />
       <Story story={story} />
       {choices && <Choices choices={choices} emitChoice={emitChoice} />}
-    </>
+    </div>
   );
 }
