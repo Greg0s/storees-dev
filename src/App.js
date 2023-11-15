@@ -65,8 +65,8 @@ function App() {
 
   const handleChoice = (choice) => {
     if (!isBoatSet) {
-      if (choice == "a") setBoat("flying_candy");
-      else if (choice == "b") setBoat("black_dragon");
+      if (choice === "a") setBoat("flying_candy");
+      else if (choice === "b") setBoat("black_dragon");
 
       setIsBoatSet(true);
     }
