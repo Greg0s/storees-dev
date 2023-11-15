@@ -13,11 +13,11 @@
   },
   "roles": {
     "hero": {
-      "title": "HÃ©ros",
+      "title": "Héros",
       "default_name": "Kit"
     },
     "vilain": {
-      "title": "MÃ©chant",
+      "title": "Méchant",
       "default_name": "Conrad"
     }
   },
@@ -49,7 +49,7 @@
     "1": {
       "a": {
         "img": "1",
-        "text": "Aujourd'hui, le por*t* est plein d'activitÃ©. ${hero_name} se di*t* que c'est une belle journÃ©*e* pour partir Ã  l'aventur*e*. Mai*s* sur quel bateau aller ?",
+        "text": "Aujourd'hui, le por*t* est plein d'activité. ${hero_name} se di*t* que c'est une belle journé*e* pour partir à  l'aventur*e*. Mai*s* sur quel bateau aller ?",
         "sound": true,
         "choices": [
           {
@@ -76,7 +76,7 @@
     "2": {
       "a": {
         "img": "2-a",
-        "text": "Â«Ah ${hero_name}, bienvenu*e* Ã  bor*d* du Bonbon Volan*t*, qui distribu*e* des bonbon*s* sur tou*s* les ocÃ©an*s*Â» s'exclame le Capitaine. Mai*s* ${hero_name} n'Ã©coute pas vraimen*t*. Lui c'est la catapulte Ã  bonbon*s* qui l'intÃ©resse.",
+        "text": "«Ah ${hero_name}, bienvenu*e* à  bor*d* du Bonbon Volan*t*, qui distribu*e* des bonbon*s* sur tou*s* les océan*s*» s'exclame le Capitaine. Mai*s* ${hero_name} n'écoute pas vraimen*t*. Lui c'est la catapulte à  bonbon*s* qui l'intéresse.",
         "sound": true,
         "choices": [
           {
@@ -93,7 +93,7 @@
       },
       "b": {
         "img": "2-b",
-        "text": "Â« Bienvenu*e* sur le Dragon Noir ${hero_name}, la terreur des pirate*s* Â» dit le capitaine, trÃ¨*s* fier de son bateau, Â« mes matelo*ts* sont les plu*s* brave*s* et les plu*s* costau*ds* Â» ${hero_name} est trÃ¨*s* interessÃ© par le gro*s* canon.",
+        "text": "« Bienvenu*e* sur le Dragon Noir ${hero_name}, la terreur des pirate*s* » dit le capitaine, trè*s* fier de son bateau, « mes matelo*ts* sont les plu*s* brave*s* et les plu*s* costau*ds* » ${hero_name} est trè*s* interessé par le gro*s* canon.",
         "sound": true,
         "choices": [
           {
@@ -111,11 +111,11 @@
     },
     "3": {
       "a": {
-        "text": "Â« Mai*s* que se passe-t-il ici ? Â» rugi*t* le capitaine Â« Un homme Ã  la mer ? Quelle misÃ¨re ! ${hero_name}, toi qui Ã©tai*t* Ã  cÃ´tÃ©, peu*x*-tu nou*s* dire ce qui c'est passÃ© ? Â»",
+        "text": "« Mai*s* que se passe-t-il ici ? » rugi*t* le capitaine « Un homme à  la mer ? Quelle misère ! ${hero_name}, toi qui étai*t* à  côté, peu*x*-tu nou*s* dire ce qui c'est passé ? »",
         "sound": true,
         "choices": [
           {
-            "text": "Dire la vÃ©ritÃ©",
+            "text": "Dire la vérité",
             "is_var": false,
             "target": "a"
           },
@@ -127,11 +127,11 @@
         ]
       },
       "b": {
-        "text": "Â« Mai*s* qui a tirÃ© mon magnifique canon ? Il n'y a pourtan*t* aucun pirate Ã  l'*h*orizon ! ${hero_name}, peu*x*-tu me dire ce qui est arrivÃ© ? Je veu*x* la vÃ©ritÃ© ! Â»",
+        "text": "« Mai*s* qui a tiré mon magnifique canon ? Il n'y a pourtan*t* aucun pirate à  l'*h*orizon ! ${hero_name}, peu*x*-tu me dire ce qui est arrivé ? Je veu*x* la vérité ! »",
         "sound": true,
         "choices": [
           {
-            "text": "Dire la vÃ©ritÃ©",
+            "text": "Dire la vérité",
             "is_var": false,
             "target": "a"
           },
@@ -143,7 +143,7 @@
         ]
       },
       "c": {
-        "text": "Â« Et voilÃ  ${hero_name}, tu connai*s* maintenan*t* le Bonbon Volan*t*. Veux-tu venir avec nou*s* distribuer des bonbon*s* sur toute*s* les mer*s* et devenir membre d'Ã©quipage ? Â»",
+        "text": "« Et voilà  ${hero_name}, tu connai*s* maintenan*t* le Bonbon Volan*t*. Veux-tu venir avec nou*s* distribuer des bonbon*s* sur toute*s* les mer*s* et devenir membre d'équipage ? »",
         "choices": [
           {
             "text": "Oui Capitaine !",
@@ -158,7 +158,7 @@
         ]
       },
       "d": {
-        "text": "Â« Haha ${hero_name}, maintenan*t* tu connai*s* le Dragon Noir, le plus beau bateau des ocÃ©an*s*. Es-tu suffisammen*t* courageu*x* pour devenir membre d'Ã©quipage ? Â»",
+        "text": "« Haha ${hero_name}, maintenan*t* tu connai*s* le Dragon Noir, le plus beau bateau des océan*s*. Es-tu suffisammen*t* courageu*x* pour devenir membre d'équipage ? »",
         "choices": [
           {
             "text": "Oui Capitaine !",
@@ -175,13 +175,13 @@
     },
     "4": {
       "a": {
-        "text": "Â« Commen*t* ? Mai*s* je t'avai*s* bien di*t* de faire attention ! Â» crie le capitaine, trÃ¨s en colÃ¨re. Â« Puisque c'est de ta faute, c'est toi ${hero_name} qui ira le chercher ! Â»",
+        "text": "« Commen*t* ? Mai*s* je t'avai*s* bien di*t* de faire attention ! » crie le capitaine, très en colère. « Puisque c'est de ta faute, c'est toi ${hero_name} qui ira le chercher ! »",
         "variations": {
           "illustration": "SHIP"
         },
         "choices": [
           {
-            "text": "Y aller Ã  la nage",
+            "text": "Y aller à  la nage",
             "is_var": false,
             "target": "a"
           },
@@ -193,7 +193,7 @@
         ]
       },
       "b": {
-        "text": "Â« Quel maladroi*t* ! Je lui avai*s* pourtan*t* bien di*t* de faire attention Â», dit le capitaine trÃ¨s embÃªtÃ©. Â« Laisson*s* le se dÃ©brouiller, il l'a bien mÃ©ritÃ©. Â»",
+        "text": "« Quel maladroi*t* ! Je lui avai*s* pourtan*t* bien di*t* de faire attention », dit le capitaine très embêté. « Laisson*s* le se débrouiller, il l'a bien mérité. »",
         "variations": {
           "illustration": "SHIP"
         },
@@ -211,7 +211,7 @@
         ]
       },
       "c": {
-        "text": "Â« Ha, j'Ã©tai*s* sur que tu avai*s* ce qu'il fau*t* pour faire partie de l'Ã©quipage du ${SHIP}, ${hero_name}. Â» di*t* le capitaine, ravi. Â« On a besoin d'une vigie pour observer les mer*s*, et d'un cuisinier pour nous faire Ã  manger. Quel poste veu*x*-tu occuper ? Â»",
+        "text": "« Ha, j'étai*s* sur que tu avai*s* ce qu'il fau*t* pour faire partie de l'équipage du ${SHIP}, ${hero_name}. » di*t* le capitaine, ravi. « On a besoin d'une vigie pour observer les mer*s*, et d'un cuisinier pour nous faire à  manger. Quel poste veu*x*-tu occuper ? »",
         "variations": {
           "illustration": "SHIP"
         },
@@ -229,7 +229,7 @@
         ]
       },
       "d": {
-        "text": "Â« Ah, et bien... Â» commence le capitaine l'air ennuyÃ©, Â« j'Ã©tai*s* sur que tu dirai*s* oui, et le ${SHIP} est dÃ©jÃ  parti. Nous te dÃ©poseron*s* au prochain por*t* pour que tu puisse*s* rentrer che*z* toi. Â»",
+        "text": "« Ah, et bien... » commence le capitaine l'air ennuyé, « j'étai*s* sur que tu dirai*s* oui, et le ${SHIP} est déjà  parti. Nous te déposeron*s* au prochain por*t* pour que tu puisse*s* rentrer che*z* toi. »",
         "variations": {
           "illustration": "SHIP"
         },
@@ -249,7 +249,7 @@
     },
     "5": {
       "a": {
-        "text": "${hero_name} est fatiguÃ© de nager, il espÃ¨re que le matelo*t* n'est plu*s* trÃ¨*s* loin. Tou*t* Ã  cou*p*, il voi*t* approcher un ban*c* de requin*s*. Ils on*t* l'air affamÃ©*s*.",
+        "text": "${hero_name} est fatigué de nager, il espère que le matelo*t* n'est plu*s* trè*s* loin. Tou*t* à  cou*p*, il voi*t* approcher un ban*c* de requin*s*. Ils on*t* l'air affamé*s*.",
         "sound": true,
         "choices": [
           {
@@ -265,7 +265,7 @@
         ]
       },
       "b": {
-        "text": "${hero_name} commence Ã  Ãªtre fatiguÃ© Ã  force de ramer, le matelo*t* ne devrai*t* plu*s* Ãªtre trÃ¨*s* loin. Oh, juste la, devan*t* la barque ! Un tourbillon !",
+        "text": "${hero_name} commence à  être fatigué à  force de ramer, le matelo*t* ne devrai*t* plu*s* être trè*s* loin. Oh, juste la, devan*t* la barque ! Un tourbillon !",
         "choices": [
           {
             "text": "Abandonner la barque",
@@ -280,7 +280,7 @@
         ]
       },
       "c": {
-        "text": "Le ${SHIP} s'Ã©lance sur les mer*s* et ${hero_name} observe l'ocÃ©an. Il ne voi*t* que de l'eau Ã  perte de vue. Mai*s*, lÃ -ba*s*, au loin, est-ce que ... Un bateau pirate ! Personne d'autre ne l'a vu !",
+        "text": "Le ${SHIP} s'élance sur les mer*s* et ${hero_name} observe l'océan. Il ne voi*t* que de l'eau à  perte de vue. Mai*s*, là -ba*s*, au loin, est-ce que ... Un bateau pirate ! Personne d'autre ne l'a vu !",
         "variations": {
           "illustration": "SHIP"
         },
@@ -291,7 +291,7 @@
             "target": "c"
           },
           {
-            "text": "PrÃ©venir l'Ã©quipage",
+            "text": "Prévenir l'équipage",
             "is_var": false,
             "target": "d"
           }
@@ -315,11 +315,11 @@
     },
     "6": {
       "a": {
-        "text": "En hau*t* du rocher, le marin a l'air bien embÃªtÃ©. Â« A l'aide, ${hero_name} fai*s* moi descendre, vite ! Â» Mais ${hero_name} enten*d* du brui*t* et voi*t* des lumiÃ¨re*s*. Qui cela peut-il Ãªtre ?",
+        "text": "En hau*t* du rocher, le marin a l'air bien embêté. « A l'aide, ${hero_name} fai*s* moi descendre, vite ! » Mais ${hero_name} enten*d* du brui*t* et voi*t* des lumière*s*. Qui cela peut-il être ?",
         "sound": true,
         "choices": [
           {
-            "text": "Aider le marin Ã  descendre",
+            "text": "Aider le marin à  descendre",
             "is_var": false,
             "target": "a"
           },
@@ -346,10 +346,10 @@
         ]
       },
       "c": {
-        "text": "${hero_name} se retrouve Ã©chouÃ© sur une plage. Un marin dor*t* sur un rocher. Mai*s* ${hero_name} enten*d* du brui*t* et voi*t* de*s* lumiÃ¨re*s* approcher. Qui cela peut-il Ãªtre ?",
+        "text": "${hero_name} se retrouve échoué sur une plage. Un marin dor*t* sur un rocher. Mai*s* ${hero_name} enten*d* du brui*t* et voi*t* de*s* lumière*s* approcher. Qui cela peut-il être ?",
         "choices": [
           {
-            "text": "Aller vers les lumiÃ¨res",
+            "text": "Aller vers les lumières",
             "is_var": false,
             "target": "a"
           },
@@ -361,18 +361,18 @@
         ]
       },
       "d": {
-        "text": "Le*s* pirate*s* on*t* attaquÃ© le ${SHIP} et le*s* marin*s* ne se laissen*t* pa*s* faire. C'est la premiÃ¨re fois que ${hero_name} voi*t* un comba*t*, et il ne sai*t* pas trop quoi faire.",
+        "text": "Le*s* pirate*s* on*t* attaqué le ${SHIP} et le*s* marin*s* ne se laissen*t* pa*s* faire. C'est la première fois que ${hero_name} voi*t* un comba*t*, et il ne sai*t* pas trop quoi faire.",
         "variations": {
           "illustration": "SHIP"
         },
         "choices": [
           {
-            "text": "Aider l'Ã©quipage",
+            "text": "Aider l'équipage",
             "is_var": false,
             "target": "c"
           },
           {
-            "text": "Se jeter Ã  l'eau",
+            "text": "Se jeter à  l'eau",
             "is_var": false,
             "target": "d"
           }
@@ -381,25 +381,25 @@
     },
     "7": {
       "a": {
-        "text": "Ce sont des pirates ! Ils ont l'air d'avoir envie de se battre. Â« Rats et scorbut ! Â» hurle leur capitaine, Â« Nous sommes des pirates sanguinaires, que faites vous sur notre plage ? Â»",
+        "text": "Ce sont des pirates ! Ils ont l'air d'avoir envie de se battre. « Rats et scorbut ! » hurle leur capitaine, « Nous sommes des pirates sanguinaires, que faites vous sur notre plage ? »",
         "variations": {
           "illustration": "SHIP"
         },
         "choices": [
           {
-            "text": "Je veux Ãªtre un pirate",
+            "text": "Je veux être un pirate",
             "is_var": false,
             "target": "a"
           },
           {
-            "text": "Dire la vÃ©ritÃ©",
+            "text": "Dire la vérité",
             "is_var": false,
             "target": "b"
           }
         ]
       },
       "b": {
-        "text": "Horreur ! Ce sont les pirates. Â« Regardez les gars, il est bien cachÃ©. Ou alors il joue Ã  chat perchÃ© Â» Les pirates explosent de rire. Â« Nous avons un nouveau prisonnier. Â»",
+        "text": "Horreur ! Ce sont les pirates. « Regardez les gars, il est bien caché. Ou alors il joue à  chat perché » Les pirates explosent de rire. « Nous avons un nouveau prisonnier. »",
         "variations": {
           "illustration": "SHIP"
         },
@@ -417,13 +417,13 @@
         ]
       },
       "c": {
-        "text": "Les pirates sont trop forts, tout est perdu. Le capitaine pirate s'avance : Â« Vous vous Ãªtes bien battus, alors je vous laisse le choix : devenez des pirates ou devenez nos prisonniers ! Â»",
+        "text": "Les pirates sont trop forts, tout est perdu. Le capitaine pirate s'avance : « Vous vous êtes bien battus, alors je vous laisse le choix : devenez des pirates ou devenez nos prisonniers ! »",
         "variations": {
           "illustration": "SHIP"
         },
         "choices": [
           {
-            "text": "Je veux Ãªtre un pirate !",
+            "text": "Je veux être un pirate !",
             "is_var": false,
             "target": "a"
           },
@@ -435,10 +435,10 @@
         ]
       },
       "d": {
-        "text": "${hero_name} se retrouve Ã©chouÃ© sur une plage. Il y a une grotte un peu plus loin. Mais en faisant attention, ${hero_name} entend du bruit et voit des lumiÃ¨res. Qui cela peut-il Ãªtre ?",
+        "text": "${hero_name} se retrouve échoué sur une plage. Il y a une grotte un peu plus loin. Mais en faisant attention, ${hero_name} entend du bruit et voit des lumières. Qui cela peut-il être ?",
         "choices": [
           {
-            "text": "Aller vers les lumiÃ¨res",
+            "text": "Aller vers les lumières",
             "is_var": false,
             "target": "c"
           },
@@ -452,22 +452,22 @@
     },
     "8": {
       "a": {
-        "text": "${hero_name} est devenu pirate malgrÃ© lui. Heureusement, un bateau de soldats poursuit les pirates. Â«Mais les pirates vont trop vite, si je ne fais rien, ils ne nous rattraperont jamais Â» se dit ${hero_name}",
+        "text": "${hero_name} est devenu pirate malgré lui. Heureusement, un bateau de soldats poursuit les pirates. «Mais les pirates vont trop vite, si je ne fais rien, ils ne nous rattraperont jamais » se dit ${hero_name}",
         "choices": [
           {
-            "text": "Prendre une Ã©pÃ©e",
+            "text": "Prendre une épée",
             "is_var": false,
             "target": "a"
           },
           {
-            "text": "Aller libÃ©rer l'Ã©quipage",
+            "text": "Aller libérer l'équipage",
             "is_var": false,
             "target": "b"
           }
         ]
       },
       "b": {
-        "text": "Oh non, l'Ã©quipage du ${SHIP} a Ã©tÃ© capturÃ© lui aussi. Personne ne viendra nous dÃ©livrer. Heureusement ${hero_name} est assez petit pour passer entre les barreaux",
+        "text": "Oh non, l'équipage du ${SHIP} a été capturé lui aussi. Personne ne viendra nous délivrer. Heureusement ${hero_name} est assez petit pour passer entre les barreaux",
         "variations": {
           "illustration": "SHIP"
         },
@@ -485,22 +485,22 @@
         ]
       },
       "c": {
-        "text": "Ce sont les pirates ! Ils boivent du rhum et chantent des chansons de pirates. Â« C'est vraiment nous les meilleurs Â» hurle l'un d'eux, Â« nous avons volÃ© le trÃ©sor et capturÃ© les hommes du ${SHIP} Â»",
+        "text": "Ce sont les pirates ! Ils boivent du rhum et chantent des chansons de pirates. « C'est vraiment nous les meilleurs » hurle l'un d'eux, « nous avons volé le trésor et capturé les hommes du ${SHIP} »",
         "choices": [
           {
-            "text": "Aller voir l'Ã©quipage",
+            "text": "Aller voir l'équipage",
             "is_var": false,
             "target": "b"
           },
           {
-            "text": "Aller voler le trÃ©sor",
+            "text": "Aller voler le trésor",
             "is_var": false,
             "target": "d"
           }
         ]
       },
       "d": {
-        "text": "Cette grotte est le repÃ¨re des pirates, c'est ici qu'ils cachent leur bateau aprÃ¨s leurs mÃ©faits. Mais ils sont trop nombreux. Il faut rÃ©flÃ©chir et trouver un plan.",
+        "text": "Cette grotte est le repère des pirates, c'est ici qu'ils cachent leur bateau après leurs méfaits. Mais ils sont trop nombreux. Il faut réfléchir et trouver un plan.",
         "choices": [
           {
             "text": "Faire peur aux pirates",
@@ -508,7 +508,7 @@
             "target": "c"
           },
           {
-            "text": "Aller voler le trÃ©sor",
+            "text": "Aller voler le trésor",
             "is_var": false,
             "target": "d"
           }
@@ -517,7 +517,7 @@
     },
     "9": {
       "a": {
-        "text": "Maintenant, le bateau nous rattrape. Les pirates commencent Ã  paniquer, les soldats courent libÃ©rer l'Ã©quipage qui appelle Ã  l'aide.",
+        "text": "Maintenant, le bateau nous rattrape. Les pirates commencent à  paniquer, les soldats courent libérer l'équipage qui appelle à  l'aide.",
         "choices": [
           {
             "text": "Essayer de s'enfuir",
@@ -532,7 +532,7 @@
         ]
       },
       "b": {
-        "text": "Pour pouvoir battre les pirates, il faut vite libÃ©rer l'Ã©quipage. ${hero_name} n'a pas un instant Ã  perdre, il doit faire quelque chose.",
+        "text": "Pour pouvoir battre les pirates, il faut vite libérer l'équipage. ${hero_name} n'a pas un instant à  perdre, il doit faire quelque chose.",
         "variations": {
           "illustration": "SHIP"
         },
@@ -550,7 +550,7 @@
         ]
       },
       "c": {
-        "text": "${hero_name} ramasse un pistolet qui trainait sur le chemin, puis il surgit de sa cachette en hurlant Â« Je suis le fantÃ´me de la grotte ! Fuyez ! Â» Ã‡a marche, les pirates s'enfuient.",
+        "text": "${hero_name} ramasse un pistolet qui trainait sur le chemin, puis il surgit de sa cachette en hurlant « Je suis le fantôme de la grotte ! Fuyez ! » Ça marche, les pirates s'enfuient.",
         "choices": [
           {
             "text": "Les poursuivre",
@@ -565,7 +565,7 @@
         ]
       },
       "d": {
-        "text": "${hero_name} ramasse un pistolet qui trainait par la, mais cela fait du bruit et les pirates l'ont entendu. Ils sortent leurs armes. Â« Qui va lÃ  ? Â» crie le capitaine Â« Parle ou meurs ! Â»",
+        "text": "${hero_name} ramasse un pistolet qui trainait par la, mais cela fait du bruit et les pirates l'ont entendu. Ils sortent leurs armes. « Qui va là  ? » crie le capitaine « Parle ou meurs ! »",
         "choices": [
           {
             "text": "Tire sur un baril",
@@ -582,10 +582,10 @@
     },
     "10": {
       "a": {
-        "text": "Quel filou ce capitaine ! Il voulait partir avec le trÃ©sor et abandonner ses hommes. Si ${hero_name} ne les avait pas surpris, ils seraient dÃ©jÃ  partis.",
+        "text": "Quel filou ce capitaine ! Il voulait partir avec le trésor et abandonner ses hommes. Si ${hero_name} ne les avait pas surpris, ils seraient déjà  partis.",
         "choices": [
           {
-            "text": "Les jeter Ã  l'eau",
+            "text": "Les jeter à  l'eau",
             "is_var": false,
             "target": "a"
           },
@@ -597,7 +597,7 @@
         ]
       },
       "b": {
-        "text": "De tous les cÃ´tÃ©s, ${hero_name}, les soldats et l'Ã©quipage attaquent les pirates. Un combat sans merci Ã©clate. ${hero_name} a battu le premier pirate, mais il en reste encore plein.",
+        "text": "De tous les côtés, ${hero_name}, les soldats et l'équipage attaquent les pirates. Un combat sans merci éclate. ${hero_name} a battu le premier pirate, mais il en reste encore plein.",
         "variations": {
           "illustration": "SHIP"
         },
@@ -615,7 +615,7 @@
         ]
       },
       "c": {
-        "text": "Oh non ! La balle a touchÃ© un baril de poudre et le bateau a explosÃ©. Si ${hero_name} reste ainsi, il va finir par se noyer !",
+        "text": "Oh non ! La balle a touché un baril de poudre et le bateau a explosé. Si ${hero_name} reste ainsi, il va finir par se noyer !",
         "choices": [
           {
             "text": "Nager vers la barque",
@@ -623,14 +623,14 @@
             "target": "a"
           },
           {
-            "text": "Appeler Ã  l'aide",
+            "text": "Appeler à  l'aide",
             "is_var": false,
             "target": "c"
           }
         ]
       },
       "d": {
-        "text": "Â« Pardon Â», disent les pirates Â« avec ce trÃ©sor et les soldats Ã  nos troussent, on est un peu sur les nerfs. Aide nous donc Ã  mettre le trÃ©sor sur cette barque, nous allons le mettre Ã  l'abri. Â»",
+        "text": "« Pardon », disent les pirates « avec ce trésor et les soldats à  nos troussent, on est un peu sur les nerfs. Aide nous donc à  mettre le trésor sur cette barque, nous allons le mettre à  l'abri. »",
         "choices": [
           {
             "text": "Aider les pirates",
@@ -647,10 +647,10 @@
     },
     "11": {
       "a": {
-        "text": "Â« Victoire, le trÃ©sor est Ã  moi (Ã  nous) ! Â» s'Ã©crie ${hero_name}, qui n'avait jamais vu autant de richesses de toute sa vie.",
+        "text": "« Victoire, le trésor est à  moi (à  nous) ! » s'écrie ${hero_name}, qui n'avait jamais vu autant de richesses de toute sa vie.",
         "choices": [
           {
-            "text": "Ramener le trÃ©sor aux soldats",
+            "text": "Ramener le trésor aux soldats",
             "is_var": false,
             "target": "a"
           },
@@ -662,10 +662,10 @@
         ]
       },
       "b": {
-        "text": "Oh non ! Alors que ${hero_name} et les pirates allaient se sauver avec le trÃ©sor, les soldats les encerclent. Â« Ils sont mieux armÃ©s, on ne peut pas gagner Â», s'exclame un pirate",
+        "text": "Oh non ! Alors que ${hero_name} et les pirates allaient se sauver avec le trésor, les soldats les encerclent. « Ils sont mieux armés, on ne peut pas gagner », s'exclame un pirate",
         "choices": [
           {
-            "text": "Sauter Ã  l'eau",
+            "text": "Sauter à  l'eau",
             "is_var": false,
             "target": "c"
           },
@@ -677,7 +677,7 @@
         ]
       },
       "c": {
-        "text": "Les soldats ont entendu les appels Ã  l'aide de ${hero_name} et le sortent de l'eau. Â« Grace Ã  toi nous avons arrÃªtÃ© les pirates Â» dit l'un des soldats, Â« Que pouvons faire pour toi ? Â»",
+        "text": "Les soldats ont entendu les appels à  l'aide de ${hero_name} et le sortent de l'eau. « Grace à  toi nous avons arrêté les pirates » dit l'un des soldats, « Que pouvons faire pour toi ? »",
         "choices": [
           {
             "text": "Retourner sur le navire",
@@ -692,15 +692,15 @@
         ]
       },
       "d": {
-        "text": "${hero_name} menace le capitaine de son pistolet au moment oÃ¹ les soldats arrive. Â« Bravo ${hero_name} ! Â» dit le chef des soldats Â« GrÃ¢ce Ã  toi nous avons capturÃ© le capitaine des pirates. Tu as bien mÃ©ritÃ© une rÃ©compense. Â»",
+        "text": "${hero_name} menace le capitaine de son pistolet au moment oà¹ les soldats arrive. « Bravo ${hero_name} ! » dit le chef des soldats « Grà¢ce à  toi nous avons capturé le capitaine des pirates. Tu as bien mérité une récompense. »",
         "choices": [
           {
-            "text": "Refuser rÃ©compense",
+            "text": "Refuser récompense",
             "is_var": false,
             "target": "a"
           },
           {
-            "text": "Accepter rÃ©compense",
+            "text": "Accepter récompense",
             "is_var": false,
             "target": "b"
           }
@@ -709,19 +709,19 @@
     },
     "12": {
       "a": {
-        "text": "De retour sur le ${SHIP}, ${hero_name} est accueilli en hÃ©ros. Grace Ã  lui, les pirates sont tous en prison. Â« Hourra ! Vive ${hero_name} Â» chante l'Ã©quipage pendant que le capitaine pousse des cris de joie.",
+        "text": "De retour sur le ${SHIP}, ${hero_name} est accueilli en héros. Grace à  lui, les pirates sont tous en prison. « Hourra ! Vive ${hero_name} » chante l'équipage pendant que le capitaine pousse des cris de joie.",
         "variations": {
           "illustration": "SHIP"
         }
       },
       "b": {
-        "text": "AprÃ¨s toutes ces aventures, ${hero_name} a bien mÃ©ritÃ© de profiter du trÃ©sor. De l'or, une maison, des bonbons... que demander de plus ?"
+        "text": "Après toutes ces aventures, ${hero_name} a bien mérité de profiter du trésor. De l'or, une maison, des bonbons... que demander de plus ?"
       },
       "c": {
-        "text": "${hero_name} est bien fatiguÃ©. AprÃ¨s toutes ces mÃ©saventures, il est content d'Ãªtre rentrÃ©. Maintenant, il veut juste un bain chaud et un peu de tranquilitÃ©."
+        "text": "${hero_name} est bien fatigué. Après toutes ces mésaventures, il est content d'être rentré. Maintenant, il veut juste un bain chaud et un peu de tranquilité."
       },
       "d": {
-        "text": "${hero_name} et les pirates sont tous en prison. Â« Ã‡a vous apprendra Ã  attaquer les bateaux Â» dit un soldat, Â« Ã§a vous fera une bonne leÃ§on ! Â»"
+        "text": "${hero_name} et les pirates sont tous en prison. « Ça vous apprendra à  attaquer les bateaux » dit un soldat, « Ça vous fera une bonne leçon ! »"
       }
     }
   }
