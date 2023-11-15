@@ -11,5 +11,5 @@ export default function Illu(props) {
 
   const imgUrl = props.imgUrl;
 
-  return <img src={imgUrl} style={styles.illu} />;
+  return <img src={imgUrl} style={styles.illu} alt="Illustration" />;
 }
