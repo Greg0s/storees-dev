@@ -1,6 +1,6 @@
 const fetchData = async (route = "") => {
   try {
-    const response = await fetch("http://localhost:3001/" + route); // Remplacez l'URL par celle que vous souhaitez utiliser.
+    const response = await fetch("http://localhost:3001/" + route);
     if (!response.ok) {
       throw new Error("La requête a échoué");
     }
